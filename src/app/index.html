@@ -18,21 +18,25 @@
 
 
 <!-- Two instances of same SVG -->
-<section class="car">
-    <div class="car__body">
-        <div class="car__window--front"></div>
-        <div class="car__window--back"></div>
-        <div class="car__window--back"></div>
+<section>
+    <div class="car">
+        <div class="car__body">
+            <div class="car__window--front"></div>
+            <div class="car__window--back"></div>
+            <div class="car__window--back"></div>
+        </div>
     </div>
     <div class="car__chassis">
-        <div class="car__wheel-outer--A">
-            <svg viewBox="0 0 100 100" class="car__wheel--A">
+        <div class="car__wheel-outer car__wheel-outer--A a--rotate">
+            <svg viewBox="0 0 100 100" class="car__wheel car__wheel--A">
                 <use xlink:href="#car__wheel"></use>
             </svg>
         </div>
-        <svg viewBox="0 0 100 100" class="car__wheel--B">
-            <use xlink:href="#car__wheel"></use>
-        </svg>
+        <div class="car__wheel-outer car__wheel-outer--B a--rotate">
+            <svg viewBox="0 0 100 100" class="car__wheel car__wheel--B">
+                <use xlink:href="#car__wheel"></use>
+            </svg>
+        </div>
     </div>
 
     <!-- SVG source -->
@@ -40,7 +44,7 @@
         <defs>
             <symbol id="car__wheel" viewBox="0 0 100 100">
                 <circle class="outer" cx="50" cy="50" r="40"></circle>
-                <circle class="inner" cx="50" cy="50" r="20"></circle>
+                <circle class="inner" cx="50" cy="50" r="15"></circle>
             </symbol>
         </defs>
     </svg>

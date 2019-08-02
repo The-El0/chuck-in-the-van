@@ -10,5 +10,6 @@
 // pattern:  name | duration | timing function | delay | iteration count | direction
 .a--rotate {
   //animation: a--rotate 5s linear 2s infinite alternate;
-  animation: a--rotate 5s linear 0s infinite;
+  animation: a--rotate 300ms linear 0s infinite;
+  animation-direction: reverse;
 }

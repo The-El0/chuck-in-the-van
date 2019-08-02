@@ -1,4 +1,4 @@
-.car__wheel--A {
+.car__wheel {
   animation-name: a--move-wheel;
   animation-duration: 1s;
   animation-timing-function: linear;
@@ -11,7 +11,7 @@
 
 @keyframes a--move-wheel {
   0% {    transform: translateY(0); }
-  50% {   transform: translateY(-10px); }
+  50% {   transform: translateY(-5px); }
   100% {  transform: translateY(0); }
 }
 
@@ -61,14 +61,17 @@
 
   &__chassis {
     position: relative;
-    top: -2rem;
+    top: -3rem;
 
+    display: flex;
+    justify-content: space-between;
     padding: 0 1rem;
   }
 }
 
 
-.car__wheel-outer--A {
+
+.car__wheel-outer {
   position: relative;
 
   &::after {
@@ -82,4 +85,7 @@
     height: 10px;
     background: green;
   }
+
+  //&--A {}
+  //&--B {}
 }

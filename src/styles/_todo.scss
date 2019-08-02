@@ -6,10 +6,23 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-
-
-
 @keyframes a--move-wheel {
+  0% {    transform: translateY(0); }
+  50% {   transform: translateY(-5px); }
+  100% {  transform: translateY(0); }
+}
+
+
+
+.car__body {
+  animation-name: a--move-body;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes a--move-body {
   0% {    transform: translateY(0); }
   50% {   transform: translateY(-5px); }
   100% {  transform: translateY(0); }

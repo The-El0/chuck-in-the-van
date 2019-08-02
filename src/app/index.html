@@ -18,13 +18,22 @@
 
 
 <!-- Two instances of same SVG -->
-<section>
-    <svg viewBox="0 0 100 100" class="car__wheel--A">
-        <use xlink:href="#car__wheel"></use>
-    </svg>
-    <svg viewBox="0 0 100 100" class="car__wheel--B">
-        <use xlink:href="#car__wheel"></use>
-    </svg>
+<section class="car">
+    <div class="car__body">
+        <div class="car__window--front"></div>
+        <div class="car__window--back"></div>
+        <div class="car__window--back"></div>
+    </div>
+    <div class="car__chassis">
+        <div class="car__wheel-outer--A">
+            <svg viewBox="0 0 100 100" class="car__wheel--A">
+                <use xlink:href="#car__wheel"></use>
+            </svg>
+        </div>
+        <svg viewBox="0 0 100 100" class="car__wheel--B">
+            <use xlink:href="#car__wheel"></use>
+        </svg>
+    </div>
 
     <!-- SVG source -->
     <svg style="display: none;">

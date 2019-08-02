@@ -13,22 +13,33 @@
     <link rel="stylesheet" type="text/css" media="all" href="/build/app.css?v=0.0.1">
 </head>
 <body>
-
-
-
-
-
 <main>
-    <div class="circle__parent a--rotate">
-        <div class="circle"></div>
-        <div class="dot"></div>
-    </div>
+
+
+
+<!-- Two instances of same SVG -->
+<section>
+    <svg viewBox="0 0 100 100" class="car__wheel--A">
+        <use xlink:href="#car__wheel"></use>
+    </svg>
+    <svg viewBox="0 0 100 100" class="car__wheel--B">
+        <use xlink:href="#car__wheel"></use>
+    </svg>
+
+    <!-- SVG source -->
+    <svg style="display: none;">
+        <defs>
+            <symbol id="car__wheel" viewBox="0 0 100 100">
+                <circle class="outer" cx="50" cy="50" r="40"></circle>
+                <circle class="inner" cx="50" cy="50" r="20"></circle>
+            </symbol>
+        </defs>
+    </svg>
+</section>
+
+
+
+
 </main>
-
-
-
-
-
-
 </body>
 </html>

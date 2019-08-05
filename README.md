@@ -1,6 +1,9 @@
 # Chuck Norris in the Van ( Volkswagen T1 )
 Chuck Norris as an autopilot of the famous Volkswagen T1
 
+---
+[see the demo](https://the-el0.github.io/chuck-in-the-van/demo)
+---
 
 
 

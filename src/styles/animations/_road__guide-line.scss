@@ -8,6 +8,6 @@
 
 // pattern:  name | duration | timing function | delay | iteration count | direction
 .a-road__guide-line {
-  animation: road__guide-line 10s linear 0s infinite;
-  animation-direction: reverse;
+  animation: road__guide-line $road-guide-line--speed linear 0s infinite;
+  //animation-direction: reverse;
 }

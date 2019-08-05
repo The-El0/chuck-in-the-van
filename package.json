@@ -1,11 +1,11 @@
 {
-  "name": "@the-el0/svg-animation--circle",
+  "name": "@the-el0/chuck-in-the-van",
   "version": "0.0.0",
-  "description": "svg-animation--circle",
+  "description": "chuck-in-the-van",
   "author": "the-el0@protonmail.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:The-El0/svg-animation--circle.git"
+    "url": "git@github.com:The-El0/chuck-in-the-van.git"
   },
   "private": "false",
   "engines": {

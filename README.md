@@ -1,8 +1,5 @@
-# Sinus
-Sinus — draw a sinus wave
-
-* GIT repository: https://github.com/The-El0/svg-animation--circle
-* Website: https://outsider.wtf/svg-animation--circle
+# Chuck Norris in the Van ( Volkswagen T1 )
+Chuck Norris as a autopilot of the famous Volkswagen T1
 
 
 
@@ -11,8 +8,8 @@ Sinus — draw a sinus wave
 
 ### Download from GitHub
 ```
-$ git clone https://github.com/The-El0/svg-animation--circle.git
-$ cd Documents/GitHub/svg-animation--circle
+$ git clone https://github.com/The-El0/chuck-in-the-van.git
+$ cd Documents/GitHub/chuck-in-the-van
 $ npm install
 ```
 

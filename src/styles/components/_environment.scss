@@ -94,4 +94,22 @@
   background-color: $t-crystal;
   //background-image: url("http://static.colourlovers.com/images/patterns/6/6698.png?1197788412");
   //background: linear-gradient(to top, #090401 50%, #4B1D06 100%);
+
+  .coffin {
+    padding: 2rem 0 0 2rem;
+    font-size: 3rem;
+  }
+}
+
+
+.sun {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+
+  display: inline-block;
+
+  font-size: 8rem;
+
+  animation: a--pulse 3s linear 0s infinite;
 }

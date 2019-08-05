@@ -8,33 +8,24 @@
 
 
 .car__wheel {
-  animation-name: a--move-wheel;
+  animation-name: a--move-up-and-down;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-delay: 0;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-@keyframes a--move-wheel {
-  0% {    transform: translateY(0); }
-  50% {   transform: translateY(-5px); }
-  100% {  transform: translateY(0); }
-}
+
 
 
 
 .car__body {
-  animation-name: a--move-body;
+  animation-name: a--move-up-and-down;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-delay: .5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
-@keyframes a--move-body {
-  0% {    transform: translateY(0); }
-  50% {   transform: translateY(-5px); }
-  100% {  transform: translateY(0); }
 }
 
 
@@ -42,9 +33,8 @@
 
 
 .car-outlet {
-//display: none;
   position: absolute;
-  bottom: 10%;
+  bottom: 8%;
   left: 30%;
   z-index: 2;
 
@@ -58,8 +48,8 @@
     position: relative;
     padding: 1rem;
 
-    width: 400px;
-    height: 200px;
+    width: 396px;
+    height: 190px;
 
     background: $car;
     border: 2px solid darken($car, 10%);
@@ -112,18 +102,20 @@
 .car__wheel-outer {
   position: relative;
 
+
   &::after {
     content: "";
     display: block;
     position: absolute;
-    top: 5px;
-    left: 50%;
+    top: 0;
+    left: 0;
 
-    width: 10px;
-    height: 10px;
-    background: $white;
+    width: 100px;
+    height: 44px;
+    background: darken($car, 5%);
 
-    border-radius: 50%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
   }
 
   //&--A {}
